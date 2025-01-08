@@ -1,3 +1,4 @@
+
 const featuredTestimonial = {
   body: "From concept to completion, the process was smooth and exciting. The team really captured my style and delivered a design that reflects my personality and lifestyle.",
   author: {

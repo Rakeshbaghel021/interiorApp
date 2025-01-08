@@ -76,6 +76,7 @@ const benefits = [
   "Benefits for you and your family",
   "A great work environment",
 ];
+
 export default function Team() {
   return (
     <main className="relative isolate bg-gray-900">
