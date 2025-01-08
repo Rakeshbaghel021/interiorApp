@@ -1,5 +1,5 @@
 const featuredTestimonial = {
-  body: "Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel et proin. Non hendrerit in vel ac diam.",
+  body: "From concept to completion, the process was smooth and exciting. The team really captured my style and delivered a design that reflects my personality and lifestyle.",
   author: {
     name: "Brenna Goyette",
     handle: "brennagoyette",
@@ -12,7 +12,7 @@ const testimonials = [
   [
     [
       {
-        body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+        body: "The transformation of my living space was beyond what I imagined! The attention to detail and creative vision exceeded my expectations. Every corner now radiates warmth and style.",
         author: {
           name: "Leslie Alexander",
           handle: "lesliealexander",
@@ -24,7 +24,7 @@ const testimonials = [
     ],
     [
       {
-        body: "Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut officia rem nulla blanditiis.",
+        body: "Working with this team was a dream. They truly understood my vision and turned my home into a perfect blend of functionality and beauty. Their work is flawless!",
         author: {
           name: "Lindsay Walton",
           handle: "lindsaywalton",
@@ -38,7 +38,7 @@ const testimonials = [
   [
     [
       {
-        body: "Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae. Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.",
+        body: "I couldn’t be happier with the results! The design team was professional, innovative, and attentive to my needs. They delivered on time, and my home has never looked better!",
         author: {
           name: "Tom Cook",
           handle: "tomcook",
@@ -50,7 +50,7 @@ const testimonials = [
     ],
     [
       {
-        body: "Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum voluptatem minus harum.",
+        body: "They exceeded my expectations. The space now feels much more inviting and modern, and I get compliments from everyone who visits. Highly recommend!",
         author: {
           name: "Leonard Krasner",
           handle: "leonardkrasner",

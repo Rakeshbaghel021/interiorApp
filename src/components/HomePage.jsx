@@ -9,7 +9,6 @@ export default function HomePage() {
     <div className="bg-white">
       <TopBanner />
       <Gallary />
-
       <main>
         <div className="relative isolate">
           <svg
@@ -61,10 +60,9 @@ export default function HomePage() {
                     We’re changing the way people connect
                   </h1>
                   <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:max-w-md sm:text-xl/8 lg:max-w-none">
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                    qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                    occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non
-                    deserunt sunt.
+                    We’re revolutionizing connections, creating innovative
+                    solutions that bring people closer together in meaningful
+                    ways. Join us on this exciting journey!
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
                     <a
@@ -77,47 +75,47 @@ export default function HomePage() {
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
                   <div className="ml-auto w-44 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80">
-                    <div className="relative">
+                    <div className="relative group">
                       <img
                         alt=""
                         src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition-transform duration-500 ease-in-out group-hover:translate-y-2 group-hover:scale-105"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                   </div>
                   <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
-                    <div className="relative">
+                    <div className="relative group">
                       <img
                         alt=""
                         src="https://images.unsplash.com/photo-1485217988980-11786ced9454?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition-transform duration-500 ease-in-out group-hover:translate-y-2 group-hover:scale-105"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
-                    <div className="relative">
+                    <div className="relative group">
                       <img
                         alt=""
                         src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=396&h=528&q=80"
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition-transform duration-500 ease-in-out group-hover:translate-y-2 group-hover:scale-105"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                   </div>
                   <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
-                    <div className="relative">
+                    <div className="relative group">
                       <img
                         alt=""
                         src="https://images.unsplash.com/photo-1670272504528-790c24957dda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=left&w=400&h=528&q=80"
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition-transform duration-500 ease-in-out group-hover:translate-y-2 group-hover:scale-105"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
-                    <div className="relative">
+                    <div className="relative group">
                       <img
                         alt=""
                         src="https://images.unsplash.com/photo-1670272505284-8faba1c31f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
-                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                        className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg transition-transform duration-500 ease-in-out group-hover:translate-y-2 group-hover:scale-105"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
@@ -128,6 +126,7 @@ export default function HomePage() {
           </div>
         </div>
       </main>
+
       {/* Testimonial section */}
       <div className="mx-auto mt-32 max-w-7xl sm:mt-56 sm:px-6 lg:px-8 mb-8">
         <div className="relative overflow-hidden bg-gray-900 px-6 py-20 shadow-xl sm:rounded-3xl sm:px-10 sm:py-24 md:px-12 lg:px-20">
@@ -170,10 +169,10 @@ export default function HomePage() {
             <figure>
               <blockquote className="mt-6 text-lg font-semibold text-white sm:text-xl/8">
                 <p>
-                  “Amet amet eget scelerisque tellus sit neque faucibus non
-                  eleifend. Integer eu praesent at a. Ornare arcu gravida
-                  natoque erat et cursus tortor consequat at. Vulputate gravida
-                  sociis enim nullam ultricies habitant malesuada lorem ac.”
+                  At our core, we believe in innovation, collaboration, and
+                  making a lasting impact. Our mission is to create products
+                  that not only inspire but also improve lives. Together, we’re
+                  building a future full of opportunities and connections.
                 </p>
               </blockquote>
               <figcaption className="mt-6 text-base text-white">

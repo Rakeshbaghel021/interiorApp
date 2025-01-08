@@ -7,7 +7,7 @@ import {
   SunIcon,
   UserGroupIcon,
 } from "@heroicons/react/20/solid";
-
+import vid2 from "../images/vid2.mp4";
 const stats = [
   { label: "Business was founded", value: "2012" },
   { label: "People on the team", value: "120+" },
@@ -100,9 +100,8 @@ export default function Team() {
             We love creators
           </h1>
           <p className="mt-8 text-pretty text-lg font-medium text-gray-400 sm:text-xl/8">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat.
+            Passionate about creativity? So are we! Join us in shaping inspiring
+            and beautiful interiors.
           </p>
         </div>
       </div>
@@ -113,33 +112,36 @@ export default function Team() {
           <div className="grid max-w-xl grid-cols-1 gap-8 text-base/7 text-gray-300 lg:max-w-none lg:grid-cols-2">
             <div>
               <p>
-                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                Id dolor praesent donec est. Odio penatibus risus viverra tellus
-                varius sit neque erat velit. Faucibus commodo massa rhoncus,
-                volutpat. Dignissim sed eget risus enim. Mattis mauris semper
-                sed amet vitae sed turpis id.
+                At our core, we celebrate creativity and the unique vision of
+                every individual. Whether you're a designer, artist, or
+                innovator, we believe in providing a platform that empowers
+                creators to transform spaces into something extraordinary. Join
+                us in redefining interiors with imagination and craftsmanship.
               </p>
               <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas.
+                At the heart of everything we do is our passion for creativity
+                and innovation. We love creators because they bring fresh ideas,
+                unique perspectives, and artistic energy to every project.
+                Whether you’re an interior designer, architect, artist, or
+                craftsman, we’re here to celebrate your vision and give you the
+                tools, resources, and platform to bring your concepts to life.
               </p>
             </div>
             <div>
               <p>
-                Erat pellentesque dictumst ligula porttitor risus eget et eget.
-                Ultricies tellus felis id dignissim eget. Est augue maecenas
-                risus nulla ultrices congue nunc tortor. Enim et nesciunt
-                doloremque nesciunt voluptate.
+                We believe that every great idea starts with a creator. That’s
+                why we are committed to supporting and collaborating with
+                designers, artists, and visionaries who push boundaries and
+                redefine possibilities. Our platform is a space where creativity
+                thrives, innovation is encouraged, and every creator’s work is
+                valued. Together, let's build remarkable interiors that inspire
+                and elevate everyday living.
               </p>
               <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
-                et ut. Ac lorem vel integer orci.
+                Our mission is to create a vibrant community where creators feel
+                empowered to explore, experiment, and deliver extraordinary
+                designs that transform spaces into something truly special.
+                Together, we shape the future of interiors.
               </p>
             </div>
           </div>
@@ -160,12 +162,16 @@ export default function Team() {
       </div>
 
       {/* Image section */}
-      <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-        <img
-          alt=""
-          src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2894&q=80"
-          className="aspect-[9/4] w-full object-cover xl:rounded-3xl"
-        />
+      <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-6xl xl:px-8 p-4">
+        <video
+          autoPlay
+          loop
+          muted
+          className="aspect-[9/4] w-full object-cover xl:rounded-3xl opacity-60"
+        >
+          <source src={vid2} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
 
       {/* Values section */}
@@ -175,9 +181,9 @@ export default function Team() {
             Our values
           </h2>
           <p className="mt-6 text-lg/8 text-gray-300">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-            impedit perferendis suscipit eaque, iste dolor cupiditate
-            blanditiis.
+            Integrity, creativity, and collaboration drive everything we do. We
+            focus on delivering quality, fostering innovation, and building
+            strong, lasting relationships.
           </p>
         </div>
         <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-base/7 text-gray-300 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-x-16">
@@ -242,8 +248,9 @@ export default function Team() {
                 Join our team
               </h2>
               <p className="mt-6 text-pretty text-lg/8 text-gray-300">
-                Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-                magnam voluptatum cupiditate veritatis in accusamus quisquam.
+                Be part of a dynamic and innovative team! We value creativity,
+                passion, and collaboration. Explore exciting career
+                opportunities with us and grow your career.
               </p>
               <ul
                 role="list"

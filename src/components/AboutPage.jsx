@@ -52,9 +52,8 @@ export default function Aboutpage() {
               Work with us
             </h2>
             <p className="mt-8 text-pretty text-lg font-medium text-gray-300 sm:text-xl/8">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat.
+              Join our dynamic team and be part of transforming spaces. Let’s
+              design, innovate, and grow together!
             </p>
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">

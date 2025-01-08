@@ -17,7 +17,7 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <header className="bg-[#121929] text-white shadow-lg sticky top-0 z-50">
+    <header className="text-white shadow-lg sticky top-0 z-50 bg-gradient-to-b from-[#121929] to-[#1c2a3e]">
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
