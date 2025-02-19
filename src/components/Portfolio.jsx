@@ -19,7 +19,7 @@ const Portfolio = () => {
   return (
     <div>
       {/* Banner */}
-      <div className="relative bg-gray-500 text-white">
+      <div className="relative bg-gray-500 text-white pt-16">
         {/* Background Video */}
         <video
           autoPlay

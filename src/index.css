@@ -1,3 +1,9 @@
+@import url("https://example-cdn.com/path-to-ethereal-font.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply font-ethereal;
+}

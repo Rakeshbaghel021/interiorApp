@@ -1,5 +1,3 @@
-import Team from "./Team";
-
 const links = [
   { name: "Open roles", href: "#" },
   { name: "Internship program", href: "#" },
@@ -77,7 +75,6 @@ export default function Aboutpage() {
           </div>
         </div>
       </div>
-      <Team />
     </>
   );
 }
